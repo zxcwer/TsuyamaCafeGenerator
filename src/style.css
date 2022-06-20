@@ -9,6 +9,10 @@
   list-style: none;
   text-decoration: none;
 }
+:root {
+  --color--primary: #b6e5d8;
+  --container--width-lg: 75%;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -18,4 +22,6 @@ body {
 }
 
 .container {
+  width: var(--container--width-lg);
+  margin: 0 2rem 0 2rem;
 }

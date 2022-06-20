@@ -1,0 +1,9 @@
+.container--header {
+  margin: 0 1rem 0 1rem;
+  background-color: #b6e5d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+}
